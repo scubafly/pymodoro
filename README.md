@@ -26,6 +26,16 @@ You need to have it installed globally for Pymodoro to work correcty.
 $ npm i -g macos-focus-mode
 ```
 
+If you encounter this error:
+`import _tkinter # If this fails your Python may not be configured for Tk`
+This project also requires `tkinter`
+
+You can install it with homebrew
+
+```
+$ brew install python-tk
+```
+
 #### Python 3
 
 To run Pymodoro you need to have [Python 3 installed](https://www.python.org/downloads/).
